@@ -116,6 +116,14 @@ p {
   transition: 0.5s;
 }
 
+#sideNav>ul>li{
+  margin-left: 20%;
+}
+
+#sideNav>ul{
+  margin-top: 37%;
+}
+
 nav ul li {
   list-style: none;
   margin: 50px 20px;
