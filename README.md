@@ -9,4 +9,4 @@
 ### Contributions are more than welcome 
 - [Contribute](https://github.com/AyushSarode/LearningApp/blob/main/CONTRIBUTING.md) - Contributing guidelines
 ##  LICENSE
-- License documentation : [Link](https://github.com/AyushSarode/LearningApp/blob/main/LICENSE) 
+- License documentation : [MIT](https://github.com/AyushSarode/LearningApp/blob/main/LICENSE) 
