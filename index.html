@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   </head>
   <body>
+    <div id="loader"></div>
+    <div id="content">
     <section id="header">
       <div class="container">
         <img src="images/logo.png" class="logo" />
@@ -220,10 +222,30 @@
     <html></html>
     <div></div>
     <section></section>
-
+  </div>
     <script type="text/javascript">
-      var menubtn = document.getElementById("menubtn");
-      var sideNav = document.getElementById("sideNav");
+      var loader;
+      var delayed = (ms) => setTimeout(function(){
+        displayContent();
+      },ms);
+      function loadNow() {
+        document.getElementById('content').style.visibility = 'hidden';
+        loader.style.visibility = 'visible';
+        delayed(3000);
+      }
+      function displayContent() {
+        loader.style.visibility = 'hidden';
+        document.getElementById('content').style.visibility = 'visible';
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        loader = document.getElementById('loader');
+        loadNow();
+      });
+
+      let menubtn = document.getElementById("menubtn");
+      let sideNav = document.getElementById("sideNav");
+
+      let goTopBtn =  document.querySelector(".gotopbtn")
 
       sideNav.style.right = "-290px";
       menubtn.onclick = function () {
@@ -233,6 +255,16 @@
           sideNav.style.right = "-290px";
         }
       };
+
+      // Function to hide go to top button at start of the page 
+      window.onscroll = function () {
+        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+          goTopBtn.style.display = 'block';
+        } else {
+          goTopBtn.style.display = 'none';
+        }
+        
+      }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
