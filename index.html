@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="loader"></div>
-    <div>
+    <div id="content">
     <section id="header">
       <div class="container">
         <img src="images/logo.png" class="logo" />
@@ -195,23 +195,21 @@
   </div>
     <script type="text/javascript">
       var loader;
-      function loadNow(opacity) {
-        if (opacity <= 0) {
-          displayContent();
-        } else {
-          loader.style.opacity = opacity;
-          window.setTimeout(function () {
-            loadNow(opacity - 0.05)
-          }, 200);
-        }
+      var delayed = (ms) => setTimeout(function(){
+        displayContent();
+      },ms);
+      function loadNow() {
+        document.getElementById('content').style.visibility = 'hidden';
+        loader.style.visibility = 'visible';
+        delayed(3000);
       }
       function displayContent() {
-        loader.style.display = 'none';
-        document.getElementById('content').style.display = 'block';
+        loader.style.visibility = 'hidden';
+        document.getElementById('content').style.visibility = 'visible';
       }
       document.addEventListener("DOMContentLoaded", function () {
         loader = document.getElementById('loader');
-        loadNow(1);
+        loadNow();
       });
 
       let menubtn = document.getElementById("menubtn");

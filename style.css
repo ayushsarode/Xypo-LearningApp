@@ -314,6 +314,6 @@ form input {
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: rgb(255, 0, 179) url(images/progress-circle.gif) no-repeat center center;
+  background: rgb(255, 0, 179) url(images/small_loader.gif) no-repeat center center;
   background-color: #ffffffcf;
 }
