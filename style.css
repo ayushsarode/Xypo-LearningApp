@@ -8,6 +8,7 @@ body {
 }
 
 .gotopbtn {
+  display: none;
   position: fixed;
   width: 50px;
   height: 50px;
