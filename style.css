@@ -307,3 +307,13 @@ form input {
   flex-basis: 48%;
   padding: 18px 0;
 }
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: rgb(255, 0, 179) url(images/small_loader.gif) no-repeat center center;
+  background-color: #ffffffcf;
+}
