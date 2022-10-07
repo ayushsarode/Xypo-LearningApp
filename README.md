@@ -32,7 +32,7 @@
 Contributions are more than welcome!
 Check out [CONTRIBUTING.md](https://github.com/AyushSarode/LearningApp/blob/main/CONTRIBUTING.md) for contributing guidlines.
 
-Please adhere to this project's [code of conduct](CODE OF CONDUCT.md).
+Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
 ## 📄 License
 
