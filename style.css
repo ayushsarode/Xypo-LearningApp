@@ -14,13 +14,13 @@ body {
   height: 50px;
   background: #563bac;
   bottom: 40px;
-  right: 50px;
+  right: 15px;
   text-decoration: none;
   text-align: center;
-  line-height: 50px;
+  line-height: 55px;
   color: white;
   font-size: 22px;
- 
+  border-radius: 50%;
 }
 
 * {
@@ -71,6 +71,7 @@ h1 {
   font-weight: bold;
   cursor: pointer;
 }
+
 p {
   font-size: 15px;
   line-height: 18px;
@@ -118,11 +119,11 @@ p {
   transition: 0.5s;
 }
 
-#sideNav>ul>li{
+#sideNav>ul>li {
   margin-left: 20%;
 }
 
-#sideNav>ul{
+#sideNav>ul {
   margin-top: 37%;
 }
 
@@ -139,10 +140,11 @@ nav ul li a {
 #menubtn {
   width: 50px;
   position: fixed;
-  right: 65px;
-  top: 35px;
+  right: 15px;
+  top: 40px;
   z-index: 2;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 /* about */
@@ -287,6 +289,7 @@ form {
   max-width: 350px;
   margin: 30px 0;
 }
+
 form input {
   width: 100%;
   padding: 12px 10px;
