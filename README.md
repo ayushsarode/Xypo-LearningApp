@@ -1,4 +1,4 @@
-![N|Solid]()
+![N|Solid](https://raw.githubusercontent.com/AyushSarode/LearningApp/main/images/X%20(1).png)
 
 ![GitHub forks](https://img.shields.io/github/forks/AyushSarode/LearningApp.svg?style=social&label=Fork&maxAge=2592000)
 ![GitHub stars](https://img.shields.io/github/stars/AyushSarode/LearningApp.svg?style=social&label=Star&maxAge=2592000)
