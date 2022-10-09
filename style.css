@@ -75,7 +75,7 @@ h1 {
 p {
   font-size: 15px;
   line-height: 18px;
-  color: #777;
+  color: #575757;
 }
 
 .header-text button {
@@ -119,11 +119,11 @@ p {
   transition: 0.5s;
 }
 
-#sideNav>ul>li {
+#sideNav > ul > li {
   margin-left: 20%;
 }
 
-#sideNav>ul {
+#sideNav > ul {
   margin-top: 37%;
 }
 
@@ -317,6 +317,51 @@ form input {
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: rgb(255, 0, 179) url(images/small_loader1.gif) no-repeat center center;
+  background: rgb(255, 0, 179) url(images/small_loader1.gif) no-repeat center
+    center;
   background-color: #ffffffcf;
+}
+
+/* Responsive Website */
+@media screen and (max-width: 468px) {
+  .about-text {
+    margin-right: 50px;
+  }
+  .about-text h2,
+  h3 {
+    margin-top: 30px;
+  }
+  #features {
+    padding: 10px 0px;
+  }
+  .feature-btn {
+    margin-top: 55px;
+  }
+  .btn-box button {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  #about,
+  #courses,
+  #offer,
+  #contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .container {
+    margin: 0px 20px;
+  }
+  #header {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .header-text {
+    margin-top: 85px;
+  }
+  .header-text button {
+    margin-bottom: 30px;
+  }
 }
