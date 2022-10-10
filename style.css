@@ -323,7 +323,7 @@ form input {
 }
 
 #footer {
-  background: #404040;
+  background: #ececec;
   color: #fff;
   font-size: 14px;
   padding-top: 20px;
@@ -332,7 +332,7 @@ form input {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #404040;
+  background: #ececec;
 }
 
 #footer .footer-newsletter h4 {
@@ -378,14 +378,15 @@ form input {
 }
 
 #footer .footer-top {
-  background: #3b3b3b;
-  border-top: 1px solid #474747;
-  border-bottom: 1px solid #474747;
+  background: #ececec;
+  /* border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747; */
   padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  justify-content: "center";
 }
 
 #footer .footer-top .footer-info h3 {
@@ -403,12 +404,17 @@ form input {
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
+#footer .footer-top .social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #545454;
-  color: #fff;
+  background: transparent;
+  border: 1px solid #acacac;
+  color: #414141;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -422,22 +428,22 @@ form input {
 
 #footer .footer-top .social-links .fa-facebook:hover {
   background: #3b5998;
-  color: white;
+  color: #0e0e0e;
 }
 
 #footer .footer-top .social-links .fa-twitter:hover {
   background: #55acee;
-  color: white;
+  color: #0e0e0e;
 }
 
 #footer .footer-top .social-links .fa-instagram:hover {
   background: #c13584;
-  color: white;
+  color: #0e0e0e;
 }
 
 #footer .footer-top .social-links .fa-youtube:hover {
   background: #bb0000;
-  color: white;
+  color: #0e0e0e;
 }
 
 /* #footer .footer-top .social-links a:hover {
@@ -456,16 +462,18 @@ form input {
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 #footer .footer-top .footer-links p {
-  color: #fff !important;
+  color: #3a3a3a !important;
 }
 
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -482,11 +490,11 @@ form input {
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
+  /* padding-top: 0; */
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #414141;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -516,7 +524,7 @@ form input {
   /* padding-top: 10px; */
   text-align: center;
   font-size: calc(var(--f0) * 1);
-  color: #fff;
+  color: #636363;
 }
 
 /* Responsive Website */
