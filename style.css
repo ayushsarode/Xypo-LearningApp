@@ -144,7 +144,7 @@ nav ul li a {
   top: 40px;
   z-index: 2;
   cursor: pointer;
-  border-radius: 50%;
+/*   border-radius: 50%; */
 }
 
 /* about */
