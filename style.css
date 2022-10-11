@@ -283,6 +283,7 @@ nav ul li a {
 
 .contact-right-col img {
   width: 100%;
+  margin-left: 20px;
 }
 
 form {
@@ -298,6 +299,7 @@ form input {
   box-shadow: none;
   box-sizing: border-box;
   border: 2px solid #563bac;
+  caret-color: #563bac;
 }
 
 .btn-box {
@@ -308,7 +310,13 @@ form input {
 
 .btn-box button {
   flex-basis: 48%;
-  padding: 18px 0;
+  padding: 10px 0;
+  margin-top: 6px;
+}
+
+.btn-box button:hover {
+  color: white;
+  background-color:#563bac;
 }
 
 #loader {
