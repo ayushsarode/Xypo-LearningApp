@@ -27,15 +27,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: var(--secondary-color)! important;
 }
 
 #header {
   height: 100vh;
-  background-image: url("images/background-5.png");
+  background-color: var(--secondary-color);
+  background-image: url("images/header-background.png");
   background-position: center;
   background-size: cover;
 }
+#header-background{
+  padding-top: 80px;
+  height: 650px;
+  overflow: hidden;
+  display: inline-block;
+}
 
+.header-container{
+  display: inline-flex;
+}
 .container {
   margin-right: 100px;
   margin-left: 100px;
@@ -45,6 +56,7 @@ body {
   margin-top: 30px;
   width: 100px;
   transition-duration: 0.5s;
+  display: block;
 }
 
 .logo:hover{
@@ -58,6 +70,7 @@ body {
 
 h1 {
   font-size: 34px;
+  color: var(--primary-color);
 }
 
 .square {
@@ -75,12 +88,13 @@ h1 {
   border: 2px solid #563bac;
   font-weight: bold;
   cursor: pointer;
+  color: var(--primary-color);
 }
 
 p {
   font-size: 15px;
   line-height: 18px;
-  color: #575757;
+  color: #909090;
 }
 
 .header-text button {
@@ -139,13 +153,28 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 #menubtn {
   width: 50px;
   position: fixed;
   right: 15px;
+  top: 40px;
+  z-index: 2;
+  cursor: pointer;
+/*   border-radius: 50%; */
+}
+
+/* ADDED NIGHT MODE HERE */
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+#nightmodebtn {
+  width: 50px;
+  position: fixed;
+  right: 100px;
   top: 40px;
   z-index: 2;
   cursor: pointer;
@@ -160,6 +189,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  color: var(--primary-color);
 }
 
 .about-left-col {
@@ -179,6 +209,7 @@ nav ul li a {
   max-width: 500px;
   margin-right: 100px;
   display: inline-block;
+  color: var(--primary-color);
 }
 
 .about-text h2 {
@@ -224,8 +255,10 @@ nav ul li a {
 
 .feature-col h4 {
   margin-bottom: 15px;
+  background-color: transparent;
   font-size: 20px;
   font-weight: 400;
+  color: var(--primary-color);
 }
 
 .feature-btn {
@@ -233,12 +266,14 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  color: var(--primary-color);
 }
 
 .feature-btn .line {
   text-align: right;
   display: inline-block;
   margin-right: 25px;
+  color: var(--primary-color);
 }
 
 /* courses */
@@ -271,12 +306,14 @@ nav ul li a {
 
 .course-text button {
   margin: 30px 0;
+  color: var(--primary-color);
 }
 
 /* offer */
 
 #offer button {
   margin: 30px 0;
+  color: var(--primary-color);
 }
 
 /* contact */
@@ -322,11 +359,12 @@ form input {
   flex-basis: 48%;
   padding: 10px 0;
   margin-top: 6px;
+  color: var(--primary-color);
 }
 
 .btn-box button:hover {
   color: white;
-  background-color:#563bac;
+  background-color:#563bac !important;
 }
 
 #loader {
@@ -420,7 +458,7 @@ form input {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: var(--primary-color);
 }
 #footer .footer-top .social-links {
   display: flex;
@@ -473,7 +511,7 @@ form input {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: var(--primary-color);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
