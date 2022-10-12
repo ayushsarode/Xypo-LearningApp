@@ -280,6 +280,17 @@
       }
 
     }
+//  ADDING DARK MODE SCRIPT
+    
+var icon = document.getElementById('nightmodebtn');
+icon.onclick = function () {
+  document.body.classList.toggle('darkTheme');
+  if(document.body.classList.contains('darkTheme')) {
+    icon.src ="images/sun.png";
+}else
+icon.src ="images/moon.png";
+
+}
   </script>
 </body>
 

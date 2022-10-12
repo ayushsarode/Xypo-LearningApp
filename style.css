@@ -168,8 +168,12 @@ nav ul li a {
 
 /* ADDED NIGHT MODE HERE */
 :root{
-  --primary-color: #edf2fc;
-  --secondary-color: #212121;
+  --primary-color:#212121 ;
+  --secondary-color:  #edf2fc ; 
+}
+.darkTheme{
+  --secondary-color:#000106 ;
+  --primary-color:  #fff ; 
 }
 #nightmodebtn {
   width: 50px;
