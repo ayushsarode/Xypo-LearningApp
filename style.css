@@ -68,6 +68,30 @@ h1 {
   margin: 15px 0;
 }
 
+
+.comman-btn:hover,
+.comman-btn:focus {
+  -webkit-animation: comman-btn 1s;
+          animation: comman-btn 1s;
+  box-shadow: 0 0 0 0.5em transparent;
+}
+
+@-webkit-keyframes comman-btn {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes comman-btn {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.comman-btn {
+  --color: #ef6eae;
+  --hover: #6610f2;
+}
+
 .comman-btn {
   padding: 18px 40px;
   background: transparent;
