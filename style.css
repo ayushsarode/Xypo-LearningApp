@@ -8,17 +8,19 @@ body {
 }
 
 .gotopbtn {
+  display: none;
   position: fixed;
   width: 50px;
   height: 50px;
   background: #563bac;
   bottom: 40px;
-  right: 50px;
+  right: 15px;
   text-decoration: none;
   text-align: center;
-  line-height: 50px;
+  line-height: 55px;
   color: white;
   font-size: 22px;
+  border-radius: 50%;
 }
 
 * {
@@ -42,6 +44,11 @@ body {
 .logo {
   margin-top: 30px;
   width: 100px;
+  transition-duration: 0.5s;
+}
+
+.logo:hover{
+  opacity: 0.5;
 }
 
 .header-text {
@@ -69,10 +76,11 @@ h1 {
   font-weight: bold;
   cursor: pointer;
 }
+
 p {
   font-size: 15px;
   line-height: 18px;
-  color: #777;
+  color: #575757;
 }
 
 .header-text button {
@@ -116,11 +124,11 @@ p {
   transition: 0.5s;
 }
 
-#sideNav>ul>li{
+#sideNav > ul > li {
   margin-left: 20%;
 }
 
-#sideNav>ul{
+#sideNav > ul {
   margin-top: 37%;
 }
 
@@ -137,10 +145,11 @@ nav ul li a {
 #menubtn {
   width: 50px;
   position: fixed;
-  right: 65px;
-  top: 35px;
+  right: 15px;
+  top: 40px;
   z-index: 2;
   cursor: pointer;
+/*   border-radius: 50%; */
 }
 
 /* about */
@@ -206,6 +215,11 @@ nav ul li a {
 
 .feature-col img {
   width: 100px;
+  transition-duration: 0.5s;
+}
+
+.feature-col:hover img {
+  scale: 1.3;
 }
 
 .feature-col h4 {
@@ -279,12 +293,14 @@ nav ul li a {
 
 .contact-right-col img {
   width: 100%;
+  margin-left: 20px;
 }
 
 form {
   max-width: 350px;
   margin: 30px 0;
 }
+
 form input {
   width: 100%;
   padding: 12px 10px;
@@ -293,6 +309,7 @@ form input {
   box-shadow: none;
   box-sizing: border-box;
   border: 2px solid #563bac;
+  caret-color: #563bac;
 }
 
 .btn-box {
@@ -303,5 +320,271 @@ form input {
 
 .btn-box button {
   flex-basis: 48%;
-  padding: 18px 0;
+  padding: 10px 0;
+  margin-top: 6px;
+}
+
+.btn-box button:hover {
+  color: white;
+  background-color:#563bac;
+}
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: rgb(255, 0, 179) url(images/small_loader1.gif) no-repeat center
+    center;
+  background-color: #ffffffcf;
+}
+
+#footer {
+  background: #ececec;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #ececec;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 8px;
+  width: calc(100% - 140px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 30px;
+  margin: 3px;
+  background: #e96b56;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #e6573f;
+}
+
+#footer .footer-top {
+  background: #ececec;
+  /* border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747; */
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+  justify-content: "center";
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+#footer .footer-top .social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #acacac;
+  color: #414141;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links .fa-facebook:hover {
+  background: #3b5998;
+  color: #0e0e0e;
+}
+
+#footer .footer-top .social-links .fa-twitter:hover {
+  background: #55acee;
+  color: #0e0e0e;
+}
+
+#footer .footer-top .social-links .fa-instagram:hover {
+  background: #c13584;
+  color: #0e0e0e;
+}
+
+#footer .footer-top .social-links .fa-youtube:hover {
+  background: #bb0000;
+  color: #0e0e0e;
+}
+
+/* #footer .footer-top .social-links a:hover {
+    background: #e96b56;
+    color: #fff;
+    text-decoration: none
+} */
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  /* margin-bottom: 30px; */
+}
+#footer .footer-top .footer-links p {
+  color: #3a3a3a !important;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #ec7f6d;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  /* padding-top: 0; */
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #414141;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+
+/* #footer .footer-top .footer-links ul a:hover {
+    color: #e96b56
+} */
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+  color: #fff !important;
+}
+
+#footer .copyright {
+  text-align: center;
+
+  /* padding-top: 30px */
+}
+
+#footer .credits {
+  /* padding-top: 10px; */
+  text-align: center;
+  font-size: calc(var(--f0) * 1);
+  color: #636363;
+}
+
+/* Responsive Website */
+@media screen and (max-width: 468px) {
+  .about-text {
+    margin-right: 50px;
+  }
+  .about-text h2,
+  h3 {
+    margin-top: 30px;
+  }
+  #features {
+    padding: 10px 0px;
+  }
+  .feature-btn {
+    margin-top: 55px;
+  }
+  .btn-box button {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  #about,
+  #courses,
+  #offer,
+  #contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .container {
+    margin: 0px 20px;
+  }
+  #header {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .header-text {
+    margin-top: 85px;
+  }
+  .header-text button {
+    margin-bottom: 30px;
+  }
 }
