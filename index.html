@@ -144,7 +144,7 @@
               Suscipit ab, veniam sint cumque ullam vero. Id delectus voluptas
               officiis, veniam voluptatem enim soluta repudiandae!
             </p>
-            <button class="comman-btn">View All Course</button>
+            <button class="comman-btn" id="viewCourseBtn">View All Courses</button>
             <div class="line">
               <span class="line-1"></span><br />
               <span class="line-2"></span><br />
@@ -270,6 +270,7 @@
     let sideNav = document.getElementById("sideNav");
 
     let goTopBtn = document.querySelector(".gotopbtn")
+    let viewCourseBtn = document.getElementById("viewCourseBtn");
 
     sideNav.style.right = "-290px";
     menubtn.onclick = function () {
@@ -289,6 +290,12 @@
       }
 
     }
+
+    viewCourseBtn.onclick = function () {
+      window.location.href = ("courses.html");
+    }
+
+
   </script>
 </body>
 

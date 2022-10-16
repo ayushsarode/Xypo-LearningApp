@@ -5,6 +5,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background-color: #ffffff;
 }
 
 .gotopbtn {
@@ -68,6 +69,7 @@ h1 {
   background: #563bac;
   margin: 15px 0;
 }
+
 
 .comman-btn:hover,
 .comman-btn:focus {
