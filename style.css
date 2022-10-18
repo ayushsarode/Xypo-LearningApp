@@ -7,6 +7,47 @@ body {
   margin: 0;
   background-color: #ffffff;
 }
+.header-search-bar{
+  display: flex;
+  flex-direction: row;
+}
+.search-bar{
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(148, 169, 192, 0.139);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+
+}
+.search-bar input{
+  background: transparent;
+  flex:1;
+  border: 0px;
+  outline: none;
+  padding: 24px 20px ;
+  font-size: 20px;
+  color: #7f6bb5;
+}
+::placeholder{
+  color:#5856c5a4;
+  font-size: 1.1em;
+}
+.search-bar button{
+  width: 25px;
+
+}
+.search-bar button{
+  border: 0;
+  border-radius:50% ;
+  width: 60px;
+  height: 60px;
+  background:#99a6e557 ;
+  cursor: pointer;
+}
 
 * {
   margin: 0;
