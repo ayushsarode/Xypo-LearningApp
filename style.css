@@ -498,12 +498,39 @@ form input {
   }
 }
 
+.fa-facebook:hover{
+  text-decoration: none;
+  color: #4267B2 !important;
+  transition: 1s all linear;
+  transform: scale(1.09);
+}
 /* #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #ec7f6d;
   font-size: 18px;
   line-height: 1;
 } */
+
+.fa-twitter:hover{
+  text-decoration: none;
+  color: #1DA1F2!important;
+  transition: 1s all linear;
+  transform: scale(1.09);
+}
+
+.fa-youtube:hover{
+  text-decoration: none;
+  color: #FF0000 !important;
+  transition: 1s all linear;
+  transform: scale(1.09);
+}
+
+.fa-instagram:hover{
+  text-decoration: none;
+  color: #F56040!important;
+  transition: 1s all linear;
+  transform: scale(1.09);
+}
 
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
