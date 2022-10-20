@@ -69,3 +69,73 @@
 .course-card:hover {
   box-shadow: 0 4px 8px 0 rgba(86, 59, 172, 0.4);
 }
+
+@media screen and (max-width:800px) {
+
+  .courses-welcome {
+    background-image: url("");
+    background-position: end;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
+    /* opacity: 0; */
+    /* height: 70vh; */
+  }
+}
+
+
+  @media (max-width:920px) and (min-width: 800px) {
+
+    .courses-welcome {
+      background-image: url("images/courses-header.jpg");
+      background-position: end;
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position-x: right;
+      height: 70vh;
+      position: relative;
+    }
+  }
+
+  @media (max-width:992px) and (min-width: 920px) {
+
+    .courses-welcome {
+      background-image: url("");
+      background-position: end;
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position-x: right;
+      height: 70vh;
+      position: relative;
+    }
+  
+  }
+
+  @media (max-width:1100px) and (min-width: 992px) {
+
+    .courses-welcome {
+      background-image: url("images/courses-header.jpg");
+      background-position: end;
+      background-size: 500px;
+      background-repeat: no-repeat;
+      background-position-x: right;
+      height: 70vh;
+      position: relative;
+    }
+  
+  }
+
+  @media (max-width:1200px) and (min-width: 1100px) {
+
+    .courses-welcome {
+      background-image: url("images/courses-header.jpg");
+      background-position: end;
+      background-size: 600px;
+      background-repeat: no-repeat;
+      background-position-x: right;
+      height: 70vh;
+      position: relative;
+    }
+  
+  }
