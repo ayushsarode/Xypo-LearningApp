@@ -484,6 +484,20 @@ form input {
   justify-content: space-between;
 }
 
+@media screen and (max-width:1000px) {
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0px;
+    row-gap: 1px;
+    position: relative;
+    left: 50px;
+  }
+}
+
 /* #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #ec7f6d;
