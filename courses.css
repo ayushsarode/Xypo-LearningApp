@@ -70,7 +70,7 @@
   box-shadow: 0 4px 8px 0 rgba(86, 59, 172, 0.4);
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:800px) {
 
   .courses-welcome {
     background-image: url("");
@@ -84,34 +84,8 @@
   }
 }
 
-@media (max-width:520px) and (min-width: 400px) {
 
-  .courses-welcome {
-    background-image: url("images/courses-header.jpg");
-    background-position: end;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    height: 70vh;
-    position: relative;
-  }
-}
-
-@media (max-width:700px) and (min-width: 520px) {
-
-  .courses-welcome {
-    background-image: url("");
-    background-position: end;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    height: 70vh;
-    position: relative;
-  }
-
-}
-
-  @media (max-width:920px) and (min-width: 700px) {
+  @media (max-width:920px) and (min-width: 800px) {
 
     .courses-welcome {
       background-image: url("images/courses-header.jpg");
