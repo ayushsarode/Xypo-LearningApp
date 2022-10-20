@@ -125,9 +125,10 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #fefbf6;
   font-size: large;
   font-style: italic;
+  transition: 0.2s ease-in;
 }
 
 nav ul li a:hover {
