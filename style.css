@@ -128,10 +128,11 @@ nav ul li a {
   color: #fff;
   font-size: large;
   font-style: italic;
+  transition: 0.2s ease-in;
 }
 
 nav ul li a:hover {
-  color: #fff;
+  color: rgb(75, 165, 255);
 }
 
 #menubtn {
