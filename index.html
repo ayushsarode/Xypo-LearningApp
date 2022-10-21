@@ -12,6 +12,11 @@
   <!-- Link for Bootstrap icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -51,7 +56,11 @@
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
-    <img src="images/menu.png" id="menubtn" />
+    <input type="checkbox" id="check">
+    <label for="check" class="menubtn" id="menubtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <!-- <img src="images/menu.png" id="menubtn" /> -->
 
     <!-- about -->
     <section id="about">
@@ -191,10 +200,10 @@
           <div class="row container justify-content-center">
             <div class="col-lg-3 col-md-3 footer-info">
               <div class="social-links mt-3">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
               </div>
             </div>
           </div>
@@ -253,8 +262,10 @@
     menubtn.onclick = function () {
       if (sideNav.style.right == "-290px") {
         sideNav.style.right = "0";
+        menubtn.innerHTML = '<i class="fa fa-times"></i>';
       } else {
         sideNav.style.right = "-290px";
+        menubtn.innerHTML = '<i class="fa fa-bars"></i>';
       }
     };
 

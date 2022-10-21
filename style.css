@@ -17,9 +17,9 @@ body {
 #header {
   height: 100vh;
   background-image: url("images/8294.png");
-  background-position: right;
-  background-size: 1000px 700px;
+  background-position: left;
   background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 100px;
 }
 
@@ -27,7 +27,10 @@ body {
   margin-right: 100px;
   margin-left: 100px;
 }
-
+h1,h4{
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
 .logo {
   margin-top: 10px;
   width: 190px;
@@ -35,13 +38,10 @@ body {
 }
 
 .header-text {
-  max-width: 350px;
+  width: 50%;
   margin-top: 55px;
 }
 
-h1 {
-  font-size: 34px;
-}
 
 .square {
   height: 12px;
@@ -56,26 +56,41 @@ h1 {
   background: transparent;
   outline: none;
   border: 2px solid #567bac;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.comman-btn:hover {
+  background: #567bac;
+  color: #fff;
+  transform: scale(0.95);
+  transition: all 0.5s ease-in-out;
+ 
 }
 
 p {
   font-size: 15px;
   line-height: 18px;
   color: #575757;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .header-text button {
   margin-top: 20px;
   margin-bottom: 60px;
 }
-
+.header-text h1{
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
 .line-1 {
   width: 15px;
   height: 15px;
   background: #563bac;
   display: inline-block;
+  
 }
 
 .line-2 {
@@ -110,8 +125,8 @@ p {
 }
 
 #sideNav > ul > li {
-  margin-left: 20%;
   text-decoration: none;
+  margin: 1rem 0;
 }
 
 #sideNav > ul {
@@ -120,31 +135,48 @@ p {
 
 nav ul li {
   list-style: none;
-  margin: 60px 20px;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #fefbf6;
   font-size: large;
+  color:#fff;
   font-style: italic;
   transition: 0.2s ease-in;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0.5rem 0;
 }
 
 nav ul li a:hover {
-  color: #fff;
+  cursor: pointer;
+  background-color: #fff;
+  color: #563bac;
+  transition: 0.2s ease-in;
 }
 
-#menubtn {
-  width: 50px;
+.menubtn {
+  width: 3rem;
+  text-align: center;
   position: fixed;
   right: 15px;
   top: 40px;
   z-index: 2;
   cursor: pointer;
   border-radius: 20%;
+  background-color: #9400FF;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
-
+#check:checked ~ .menubtn i::before {
+  content: "\f00d";
+}
+#check {
+  display: none;
+}
 /* about */
 
 #about,
@@ -532,7 +564,18 @@ form input {
   transition: 1s all linear;
   transform: scale(1.09);
 }
-
+#footer .footer-top .footer-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-top .footer-links ul{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+}
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
@@ -550,11 +593,12 @@ form input {
   line-height: 4;
   text-decoration: none;
   font-size: large;
+  font-family: "Poppins", sans-serif;
 }
 
-/* #footer .footer-top .footer-links ul a:hover {
-    color: #e96b56
-} */
+#footer .footer-top .footer-links ul a:hover {
+  opacity: 0.5;
+}
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
