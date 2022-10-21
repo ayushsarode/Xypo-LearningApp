@@ -8,6 +8,11 @@ body {
   background-color: #ffffff;
 }
 
+button:hover {
+  color: white;
+  background-color: #563bac;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -317,10 +322,7 @@ form input {
   margin-top: 6px;
 }
 
-.btn-box button:hover {
-  color: white;
-  background-color: #563bac;
-}
+
 
 #loader {
   position: fixed;
@@ -470,9 +472,10 @@ form input {
   padding-bottom: 12px;
 } */
 
-#footer .footer-top .footer-links {
-  /* margin-bottom: 30px; */
-}
+/* #footer .footer-top .footer-links {
+  margin-bottom: 30px;
+} */
+
 #footer .footer-top .footer-links p {
   color: #3a3a3a !important;
 }
@@ -539,9 +542,9 @@ form input {
   align-items: center;
 }
 
-#footer .footer-top .footer-links ul li:first-child {
-  /* padding-top: 0; */
-}
+/* #footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+} */
 
 #footer .footer-top .footer-links ul a {
   color: #fff;
