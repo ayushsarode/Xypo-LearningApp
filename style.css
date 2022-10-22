@@ -104,6 +104,37 @@ p {
   line-height: 8px;
   margin-top: -20px;
 }
+/* ====================== add search =========================== */
+#search {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  right: -140vh;
+  top: 47px;
+  margin-top: auto;
+  color: #1d28f2;
+}
+#search > fa-search {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #1d28f2;
+}
+
+/* #search form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+} */
+
+
+/* ====================== add search =========================== */
+
 
 #sideNav {
   width: 290px;
@@ -393,7 +424,7 @@ form input {
 } */
 
 #footer .footer-top {
-  background: #282d32;
+  background: #00ddff;
   /* border-top: 1px solid #474747;
   border-bottom: 1px solid #474747; */
 }
@@ -426,6 +457,7 @@ form input {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
+  box-shadow: #3a3a3a 0 0 1px;
   background: transparent;
   border: 1px solid #acacac;
   color: #fff;
