@@ -27,6 +27,9 @@ button:hover {
   background-repeat: no-repeat;
   margin-right: 100px;
 }
+.header-text img {
+  display: none;
+}
 
 .container {
   margin-right: 100px;
@@ -500,6 +503,36 @@ form input {
     position: relative;
     left: 50px;
   }
+
+  #header {
+    background: none;
+    height: auto;
+    width: 100%;
+  }
+  #header .container {
+    margin-right: 0em;
+    margin-left: 5em;
+    width: 100vw;
+  }
+  .header-text {
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+    max-width: 100%;
+
+  }
+  .header-text img {
+    display: block;
+    width: 55%;
+    float: right;
+
+  }
+  .header-text h1 {
+    width: 100%;
+  }
+  .header-text p {
+    width: 40%;
+  }
 }
 
 .fa-facebook:hover{
@@ -613,8 +646,22 @@ form input {
   #features {
     padding: 10px 0px;
   }
+  .feature-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-col {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-col p {
+    width: 80%;
+  }
   .feature-btn {
     margin-top: 55px;
+    margin-bottom: 3em;
   }
   .btn-box button {
     padding: 5px;
@@ -622,13 +669,11 @@ form input {
 }
 
 @media screen and (max-width: 788px) {
-  #about,
-  #courses,
-  #offer,
-  #contact {
+  #offer {
     display: flex;
     flex-direction: column;
     padding: 0px;
+    margin-bottom: 5em;
   }
   .container {
     margin: 0px 20px;
@@ -637,9 +682,106 @@ form input {
     background-size: contain;
     background-repeat: no-repeat;
   }
-
+  #header .container {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-text h1, .header-text p, .header-text img {
+    width: 90%;
+    text-align: center;
+  }
+  .header-text p {
+    width: 80%;
+    margin: 1.5em 0;
+  }
   .header-text button {
     margin-bottom: 30px;
+  }
+  .header-text .line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
+
+  #about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .about-text {
+    display: block;
+    margin: 1em auto 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  .about-text p {
+    margin-bottom: 0.2em;
+  }
+  .line-1 {
+    scale: 0.8
+  }
+
+  #about h3 {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 2em;
+  }
+
+  .course-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .corse-left-col {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+  }
+  #courses .line, #offer .line {
+    margin-top: 1em;
+  }
+  
+  .contact-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contact-right-col {
+    margin-bottom: 2em;
+  }
+  .contact-right-col img {
+    display: block  ;
+    margin: auto;
+    width: 80%;
+  }
+  .contact-left-col h1 {
+    text-align: center;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: left;
+  }
+  .footer-links ul {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 2em !important;
+    width: 100%;
+    left: 30px !important;
+  }
+  .footer-links ul li a {
+    line-height: 1 !important;
   }
 }
 
