@@ -786,11 +786,11 @@ form input {
 }
 
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track{
-  background-color: #477dbebf; 
+  background-color: white; 
 }
 
 ::-webkit-scrollbar-thumb{
