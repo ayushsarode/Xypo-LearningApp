@@ -109,8 +109,8 @@ p {
   width: 100%;
   position: fixed;
   display: flex;
-  right: -140vh;
-  top: 47px;
+  right: -50vh;
+  top: 60px;
   margin-top: auto;
   color: #1d28f2;
 }
