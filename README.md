@@ -1,8 +1,11 @@
-![N|Solid](https://raw.githubusercontent.com/AyushSarode/LearningApp/main/images/X%20(1).png)
+![Screenshot 2022-10-23 at 8 32 11 AM](https://user-images.githubusercontent.com/70846580/197371342-8f393ca6-f2ce-41fe-8e44-8cd85ef8161b.png)
 
+
+
+<!-- 
 ![GitHub forks](https://img.shields.io/github/forks/AyushSarode/LearningApp.svg?style=social&label=Fork&maxAge=2592000)
 ![GitHub stars](https://img.shields.io/github/stars/AyushSarode/LearningApp.svg?style=social&label=Star&maxAge=2592000)
-![GitHub watchers](https://img.shields.io/github/watchers/AyushSarode/LearningApp.svg?style=social&label=Watch&maxAge=2592000)
+![GitHub watchers](https://img.shields.io/github/watchers/AyushSarode/LearningApp.svg?style=social&label=Watch&maxAge=2592000) -->
 # Learning App
 
 ## 🎙 Introduction
