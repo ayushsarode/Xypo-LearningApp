@@ -43,15 +43,6 @@ Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
 ## 💻 Author
 [@AyushSarode](https://github.com/AyushSarode)
-## About the Author
-
-### Hi, I'm [Ayush Sarode](https://github.com/AyushSarode)! 👋
-
-👀 I’m interested in Web Development
-
-🌱 I’m currently learning Reactjs
-
-😄 Pronouns: He/Him
 
 ## 🔗 Social Links
 
