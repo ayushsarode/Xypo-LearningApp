@@ -18,7 +18,7 @@
 7. [Feedback](#feedback)
 8. [Contributers](#contributers)
 
-  
+
 <a name="intro"></a>
 
 ## 🎙 Introduction
@@ -26,6 +26,7 @@
 - HTML    ![N|Solid](https://img.icons8.com/ios-glyphs/15/000000/html-5.png)
 - CSS     ![N|Solid](https://img.icons8.com/ios-glyphs/15/000000/css3.png)
 > This project is created in HTML and CSS which is a ed-tech platform.
+
 
 <a name="why"></a>
 
@@ -43,6 +44,7 @@
 
 *Choose what you'd like to learn from our extensive subscription library.*
 
+
 <a name="contributing"></a>
 
 ## ⚒ Contributing
@@ -52,16 +54,19 @@ Check out [CONTRIBUTING.md](https://github.com/AyushSarode/LearningApp/blob/main
 
 Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
+
 <a name="license"></a>
 
 ## 📄 License
 
 [MIT](https://github.com/AyushSarode/LearningApp/blob/main/LICENSE)
 
+
 <a name="author"></a>
 
 ## 💻 Author
 [@AyushSarode](https://github.com/AyushSarode)
+
 
 <a name="socials"></a>
 
@@ -69,10 +74,12 @@ Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://mobile.twitter.com/AyushSarode07)
 
+
 <a name="feedback"></a>
 
 ## 🖊 Feedback
 Your suggestions are very welcome, kindly post them [here](https://github.com/AyushSarode/LearningApp/issues) and contribute into the project.
+
 
 <a name="contributors"></a>
 
