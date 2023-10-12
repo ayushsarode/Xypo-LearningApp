@@ -16,7 +16,7 @@
 5. [Author](#author)
 6. [Social Links](#socials)
 7. [Feedback](#feedback)
-8. [Contributers](#contributers)
+8. [Contributors](#contributors)
 
 
 <a name="intro"></a>
@@ -83,7 +83,7 @@ Your suggestions are very welcome, kindly post them [here](https://github.com/Ay
 
 <a name="contributors"></a>
 
-## Contributers
+## Contributors
 <a href="https://github.com/AyushSarode/LearningApp/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AyushSarode/LearningApp" />
 </a>
