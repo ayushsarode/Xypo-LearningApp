@@ -1,4 +1,4 @@
-<h1 align="center">Contributing Guidelines 🚀</h1>
+<h1 align="center">🚀Contributing Guidelines 🚀</h1>
 <br>
  Hey there, amazing contributor! Welcome to <b>Xypo-LearningApp</b>. We're super excited to have you on board! 😎
 <br>
