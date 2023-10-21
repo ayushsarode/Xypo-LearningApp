@@ -15,11 +15,7 @@
    -  Using Github CLI
     ```shell
     gh repo clone AyushSarode/LearningApp
-     ```
-   
-     
-     
-     
+     ```     
 3. **Create a feature branch:** 🌟 Switch to a new branch. Make it descriptive like `feature/amazing-feature` or `bugfix/issue-fix`.
 
 4. **Make your magic happen:** ✨ Work your coding magic. Add new features, squash bugs, and sprinkle your creativity!
@@ -34,9 +30,7 @@
 9. **Review & Improve:** 🕵️‍♂️ Your contribution will be reviewed. Be open to feedback. Together, we make it perfect
 10. Hurray! **You've made a significant contribution!** 🥳🎉
 <br>
-
 Note: Do write clear, thoughtful comments. Future you (or someone else) will appreciate it.
-
 
 ## Found a Bug? Want a Feature? 🐞🚀
 - **Bug Reports:** Found a bug? No worries! Open an issue. Be detailed. Help us squash it!
