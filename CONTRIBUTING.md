@@ -1,54 +1,43 @@
-<h1 align=center> 🥳🌟Hacktoberfest 2022🌟🥳</h1>
+<h1 align="center">🚀Contributing Guidelines 🚀</h1>
+<br>
+ Hey there, amazing contributor! Welcome to <b>Xypo-LearningApp</b>. We're super excited to have you on board! 😎
+<br>
 
- ### Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2022 challenge and earn a limited edition T-shirt.
-#### <br> 📢 Register Yourself for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS! 🔥
-<br><hr>
-# Getting started with LearningApp
+## How to Contribute 🤝
 
-## How to Contribute? ✍
+1. **Fork the repository:** 🍴 Click the 'Fork' button in the top-right corner. This creates your own copy of the project.
 
-### 1. Fork the Project 🍴
-Fork this repository and make changes in code as required. You can change it online or by cloning it in your device. Then Pust it on your Forked Repo for further Actions. Do not use special characters in the template above.
-
-![forked](https://user-images.githubusercontent.com/63325246/138092106-83ca7ed0-1ec3-4d01-a90c-ae3362bef4f5.jpg)
-
-### 2. (Optional) Clone the fork via `git`
-   - Using SSH
+2. **Clone your fork:** 💻 Clone the repository to your local machine via git 
+   -  Using SSH
      ```shell
      git clone git@github.com:AyushSarode/LearningApp.git
      ```
+   -  Using Github CLI
+    ```shell
+    gh repo clone AyushSarode/LearningApp
+     ```     
+3. **Create a feature branch:** 🌟 Switch to a new branch. Make it descriptive like `feature/amazing-feature` or `bugfix/issue-fix`.
 
-   - Using HTTPS
+4. **Make your magic happen:** ✨ Work your coding magic. Add new features, squash bugs, and sprinkle your creativity!
+         <br>
+5. **Test your changes:** 🧪 Ensure everything works smoothly. No one likes pesky bugs!
 
-     ```shell
-     git clone https://github.com/AyushSarode/LearningApp.git
-     ```
+6. **Commit like a pro:** 💡 Commit your changes with clear, expressive messages. Push to the new branch
+   ```shell
+   git commit -m "Brief and awesome commit message here"
+7. **Push to the stars:** 🚀 Push your changes to your forked repository.
+8. **Create a Pull Request:** 🔥 Head back to the original repository. Click 'New Pull Request'. Write a captivating title and explain your changes. Emojis are welcome! 🎉
+9. **Review & Improve:** 🕵️‍♂️ Your contribution will be reviewed. Be open to feedback. Together, we make it perfect
+10. Hurray! **You've made a significant contribution!** 🥳🎉
+<br>
+Note: Do write clear, thoughtful comments. Future you (or someone else) will appreciate it.
 
-   - Using GitHub CLI
+## Found a Bug? Want a Feature? 🐞🚀
+- **Bug Reports:** Found a bug? No worries! Open an issue. Be detailed. Help us squash it!
+- **Feature Requests:** Dreaming of a new feature? Tell us about it! Open an issue and share your vision.
+<br><br>
 
-     ```shell
-     gh repo clone AyushSarode/LearningApp
-     ```
+### Happy coding! 😄✌️
 
-### 3. Create a new branch 
-### 4. Start hacking on the new branch
-### 5. Add Issue (Before making a pull request)
-   
-- go to the Issues tab of the repository and click on the issue you want to work on. 
-- Under that issue, write a comment asking permission for the admin of the repository to assign you the issue you want to work on.
-- For example, 
-```
-  I would like to work on this issue. Can you assign it to me?
-```
-### 6. Commit and push to the new branch
 
-### 7. Click the contribute button to bring up a drop-down menu; select the pull request option from the menu.
 
-### 8. But before making a pull request, be sure to link the issue in the description box for which you are creating the pull request.
-
-<hr>
-**Note: A pull request allows you to merge your changes into the main project.**
-<hr>
-Wait for your edits to be merged before proceeding.
-<hr>
-Hurray! <b>You've made a significant contribution! :partying_face:🎉<b>
