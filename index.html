@@ -21,6 +21,7 @@
   <div id="loader"></div>
   <div id="content">
     <section id="header">
+      <img src="images/moon.png" id="icon">
       <div class="container">
         <a href="index.html"><img src="images/Xypo1.png" class="logo" /></a>
         <div class="header-text">
@@ -233,6 +234,9 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script type="text/javascript">
+
+
+
     var loader;
     var delayed = (ms) => setTimeout(function () {
       displayContent();
@@ -250,7 +254,6 @@
       loader = document.getElementById('loader');
       loadNow();
     });
-
     let menubtn = document.getElementById("menubtn");
     let sideNav = document.getElementById("sideNav");
 
@@ -275,11 +278,28 @@
       }
 
     }
-
     viewCourseBtn.onclick = function () {
       window.location.href = ("courses.html");
     }
 
+    var icon = document.getElementById("icon");
+    icon.onclick = function () {
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classList.contains("dark-theme")) {
+        icon.src = "images/sun.png";
+        sessionStorage.setItem("dark", true);
+      }
+      else {
+        icon.src = "images/moon.png";
+        sessionStorage.removeItem("dark");
+      }
+    }
+    if (sessionStorage.getItem("dark")) {
+      document.body.classList.add("dark-theme");
+    }
+    else {
+      document.body.classList.remove("dark-theme");
+    }
 
   </script>
 </body>

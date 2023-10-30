@@ -5,7 +5,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
+  background-color: var(--primary-color) !important;
 }
 
 button:hover {
@@ -36,6 +36,30 @@ button:hover {
   margin-left: 100px;
 }
 
+:root{
+  /* --primary-color: black;
+  --seconday-color: white;
+  --third-color: rgb(209, 207, 207);  */
+  /* black */
+  --primary-color: white;
+  --seconday-color: black;
+  --third-color:  black ;
+}
+
+.dark-theme{
+  --primary-color: black;
+  --seconday-color: white;
+  --third-color: rgb(209, 207, 207); 
+
+}
+
+#icon{
+  width: 35px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
 .logo {
   margin-top: 10px;
   width: 190px;
@@ -49,6 +73,7 @@ button:hover {
 
 h1 {
   font-size: 34px;
+  color: var(--third-color);
 }
 
 .square {
@@ -66,12 +91,14 @@ h1 {
   border: 2px solid #567bac;
   font-weight: bold;
   cursor: pointer;
+  color: var(--third-color);
 }
 
 p {
   font-size: 15px;
   line-height: 18px;
-  color: #575757;
+  /* color: #575757; */
+  color: var(--third-color);
 }
 
 .header-text button {
@@ -133,7 +160,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fefbf6;
+  color: var(--primary-color);
   font-size: large;
   font-style: italic;
   transition: 0.2s ease-in;
@@ -186,12 +213,14 @@ nav ul li a:hover {
   margin: 50px 0 10px;
   font-size: 28px;
   font-style: italic;
+  color: var(--third-color);
 }
 
 .about-text h3 {
   margin: 50px 0 10px;
   font-size: 28px;
   font-style: italic;
+  color: var(--third-color);
 }
 
 /* features */
@@ -227,6 +256,7 @@ nav ul li a:hover {
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: 400;
+  color: var(--third-color);
 }
 
 .feature-btn {
@@ -334,7 +364,7 @@ form input {
   z-index: 1;
   overflow: visible;
   background: rgb(255, 0, 179) url(images/loader.gif) no-repeat center center;
-  background-color: #ffffffcf;
+  background-color: var(--primary-color);
   background-size: 400px;
 }
 
@@ -529,6 +559,7 @@ form input {
   }
   .header-text h1 {
     width: 100%;
+    color: var(--third-color);
   }
   .header-text p {
     width: 40%;
@@ -631,7 +662,7 @@ form input {
 }
 
 .gotopbtn:hover {
-  color: white;
+  color: var(--primary-color);
 }
 
 /* Responsive Website */
@@ -790,7 +821,7 @@ form input {
 }
 
 ::-webkit-scrollbar-track{
-  background-color: white; 
+  background-color: var(--primary-color); 
 }
 
 ::-webkit-scrollbar-thumb{
