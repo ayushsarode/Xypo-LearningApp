@@ -77,10 +77,6 @@ Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
 <a name="feedback"></a>
 
-## 🖊 Feedback
-Your suggestions are very welcome, kindly post them [here](https://github.com/AyushSarode/LearningApp/issues) and contribute into the project.
-
-
 <a name="contributors"></a>
 
 ## Contributors
